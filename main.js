@@ -5,11 +5,11 @@ function calc(event) {
   const num = document.getElementById("num").value;
 
   const result = factorial(num);
-//   alert(result);
-//   console.log(result);
+  //   alert(result);
+  //   console.log(result);
 
   document.getElementById("result").value = result;
 }
 
-const form = document.getElementById('facto-form');
-form.addEventListener('submit', calc);
+const form = document.getElementById("facto-form");
+form.addEventListener("submit", calc);
